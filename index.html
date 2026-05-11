@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои Заметки — Путешествия, Пожарная Безопасность, Генеалогия</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📔 Мои Заметки</h1>
+            <p class="subtitle">Путешествия • Пожарная Безопасность • Генеалогия</p>
+        </div>
+    </header>
+
+    <nav class="tabs">
+        <div class="container">
+            <button class="tab-btn active" data-tab="travel">🌍 Путешествия</button>
+            <button class="tab-btn" data-tab="fire">🔥 Пожарная Безопасность</button>
+            <button class="tab-btn" data-tab="family">👨‍👩‍👧‍👦 Генеалогия</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Tab: Путешествия -->
+        <div id="travel" class="tab-content active">
+            <h2>Путешествия</h2>
+            <div class="card">
+                <h3>📍 Маршрут: Печора → Грузия → Турция → Северный Кипр</h3>
+                <p><strong>Даты:</strong> 18–20 дней, июнь 2026</p>
+                <p><strong>Автомобиль:</strong> Mitsubishi Outlander 2019</p>
+                <p><strong>Протяжённость:</strong> ~9 000 км (туда-обратно)</p>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h4>💰 Бюджет</h4>
+                    <ul>
+                        <li>Топливо: ~$1 065</li>
+                        <li>Жильё (20 ночей): ~$980</li>
+                        <li>Итого: ~$2 000+</li>
+                    </ul>
+                    <a href="https://github.com/safyuriy1975-ctrl/travel-notes" target="_blank">📂 Подробнее в репозитории</a>
+                </div>
+                <div class="card">
+                    <h4>🗺️ Страны</h4>
+                    <ul>
+                        <li><strong>Грузия:</strong> Тбилиси, Батуми, Казбеги</li>
+                        <li><strong>Турция:</strong> Трабзон, Анталья, Алания</li>
+                        <li><strong>Северный Кипр:</strong> Гирне, Фамагуста</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>📋 Заметки</h4>
+                    <ul>
+                        <li>Верхний Ларс — ехать рано утром</li>
+                        <li>На Кипре — левостороннее движение!</li>
+                        <li>Паром бронировать заранее</li>
+                        <li>Union Pay работает в Турции/Грузии</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab: Пожарная Безопасность -->
+        <div id="fire" class="tab-content">
+            <h2>Пожарная Безопасность</h2>
+            <div class="card">
+                <h3>🏢 Объекты на обслуживании — Печора и Сосногорск</h3>
+                <p>Системы: АПС, СОУЭ, видеонаблюдение, СКУД</p>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h4>📝 Чек-листы</h4>
+                    <ul>
+                        <li>Ежегодное ТО</li>
+                        <li>Квартальная проверка</li>
+                        <li>Инспекция системы</li>
+                    </ul>
+                    <a href="https://github.com/safyuriy1975-ctrl/fire-safety-notes/tree/main/checklists" target="_blank">📂 Все чек-листы</a>
+                </div>
+                <div class="card">
+                    <h4>📚 Нормативы</h4>
+                    <ul>
+                        <li>Постановление Правительства №1479</li>
+                        <li>СП 5.13130</li>
+                        <li>Периодичность ТО</li>
+                    </ul>
+                    <a href="https://github.com/safyuriy1975-ctrl/fire-safety-notes/tree/main/regulations" target="_blank">📂 Нормативная база</a>
+                </div>
+                <div class="card">
+                    <h4>🛠️ Обслуживание</h4>
+                    <ul>
+                        <li>Акты и шаблоны</li>
+                        <li>Журнал выездов</li>
+                        <li>Частые проблемы</li>
+                    </ul>
+                    <a href="https://github.com/safyuriy1975-ctrl/fire-safety-notes/tree/main/service-notes" target="_blank">📂 Сервисные записи</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab: Генеалогия -->
+        <div id="family" class="tab-content">
+            <h2>Генеалогия семьи</h2>
+            <div class="card">
+                <h3>🌳 Древо семьи Сафьюрий</h3>
+                <p>Восстановление истории семьи по отцовской и материнской линиям</p>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h4>👨‍👦 Отцовская линия</h4>
+                    <ul>
+                        <li>Фамилия: Сафьюрий</li>
+                        <li>Республика Коми</li>
+                        <li>Поиск в архивах Коми</li>
+                    </ul>
+                    <a href="https://github.com/safyuriy1975-ctrl/family-tree/tree/main/people/paternal" target="_blank">📂 Отцовская ветвь</a>
+                </div>
+                <div class="card">
+                    <h4>👩‍👧 Материнская линия</h4>
+                    <ul>
+                        <li>Донецк, Луганск, Днепропетровск</li>
+                        <li>Украинские архивы</li>
+                        <li>Церковные метрики</li>
+                    </ul>
+                    <a href="https://github.com/safyuriy1975-ctrl/family-tree/tree/main/people/maternal" target="_blank">📂 Материнская ветвь</a>
+                </div>
+                <div class="card">
+                    <h4>📜 План исследования</h4>
+                    <ul>
+                        <li>Архивные запросы (Коми, Украина)</li>
+                        <li>Онлайн-базы (ОБД Мемориал, ВГД)</li>
+                        <li>Метрические книги</li>
+                    </ul>
+                    <a href="https://github.com/safyuriy1975-ctrl/family-tree/blob/main/research-plan.md" target="_blank">📂 Подробный план</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Юрий Сафьюрий • Все данные хранятся в <a href="https://github.com/safyuriy1975-ctrl" target="_blank">GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
